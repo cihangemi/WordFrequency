@@ -1,6 +1,6 @@
 def clearSymbols(allwords):
     withoutsymbols=[]
-    symbols="!''^+%&/*+()=?_;-,.@\"\"<>:.[]{}½$#£|"
+    symbols="~`!@#$%^&*()-_+={}[]|\\/:;\"'<>,.?{|}~ \t\n\r\x0b\x0c"
     for word in allwords:
         for symbol in symbols:
             if symbol in word:
